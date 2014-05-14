@@ -16,7 +16,7 @@ Gem::Specification.new do |s|
   s.require_path = 'lib'
   s.requirements << 'none'
 
-  gem.add_dependency 'money', '~> 5.1.1'
+  s.add_dependency 'money', '~> 5.1.1'
   s.add_dependency 'spree_core', '2.1.2'
 
   s.add_development_dependency 'capybara', '~> 2.1'
