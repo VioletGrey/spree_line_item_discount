@@ -1,7 +1,7 @@
 SpreeLineItemDiscount
 =====================
 
-Introduction goes here.
+Adds adjustments to Line Items for discounts.
 
 Installation
 ------------
@@ -12,12 +12,18 @@ Add spree_line_item_discount to your Gemfile:
 gem 'spree_line_item_discount'
 ```
 
-Bundle your dependencies and run the installation generator:
-
+Then run
 ```shell
-bundle
-bundle exec rails g spree_line_item_discount:install
+bundle install
 ```
+
+Usage
+-----
+
+Create Promotion in Spree Admin. Add 'Create Line Item discount' action to your promotion.
+Currently this only supports Flat Percent calculator.
+
+Action creates adjustments on each line item + a cumulative adjustment on the Order.
 
 Testing
 -------
@@ -25,9 +31,9 @@ Testing
 Be sure to bundle your dependencies and then create a dummy test app for the specs to run against.
 
 ```shell
-bundle
+bundle install
 bundle exec rake test_app
-bundle exec rspec spec
+bundle exec rspec
 ```
 
 When testing your applications integration with this extension you may use it's factories.
