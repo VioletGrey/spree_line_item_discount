@@ -1,5 +1,5 @@
-SpreeLineItemDiscount
-=====================
+Spree Line Item Discount
+========================
 
 Adds adjustments to Line Items for discounts.
 
@@ -43,4 +43,4 @@ Simply add this require statement to your spec_helper:
 require 'spree_line_item_discount/factories'
 ```
 
-Copyright (c) 2014 [name of extension creator], released under the New BSD License
+Copyright (c) 2014 Aditya Raghuwanshi, released under the New BSD License
