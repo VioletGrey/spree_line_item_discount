@@ -9,7 +9,7 @@ Installation
 Add spree_line_item_discount to your Gemfile:
 
 ```ruby
-gem 'spree_line_item_discount'
+gem 'spree_line_item_discount', github: 'kitwalker12/spree_line_item_discount'
 ```
 
 Then run
