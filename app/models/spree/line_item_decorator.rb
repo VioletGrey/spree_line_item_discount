@@ -4,6 +4,6 @@ end
 
 Spree::LineItem.class_eval do
   def item_total
-    self.price
+    self.price * self.quantity
   end
 end
